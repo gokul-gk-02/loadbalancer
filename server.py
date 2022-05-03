@@ -75,7 +75,7 @@ def incoming(lb):
 
             response = ""
             if len(resp) == 0:
-                response = "No matching rows"
+                response = "No Output"
     
             for row in resp:
                 response += f"Name: {row[0]} \nHEX: {row[1]} \nRGB: {row[2]}\n\n"
